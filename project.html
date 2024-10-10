@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architect Template</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl font-bold hover:text-gray-400">BR Architect</h1>
+        </div>
+    </header>
+
+    <section class="container mx-auto px-4 py-12">
+        <h2 class="text-2xl font-semibold mb-6 hover:text-gray-600">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl">
+                <img src="https://www.w3schools.com/w3images/house5.jpg" alt="Summer House" class="w-full h-48 object-cover rounded hover:opacity-75">
+                <h3 class="text-lg font-bold mt-4 hover:text-blue-500">Summer House</h3>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl">
+                <img src="https://www.w3schools.com/w3images/house2.jpg" alt="Brick House" class="w-full h-48 object-cover rounded hover:opacity-75">
+                <h3 class="text-lg font-bold mt-4 hover:text-blue-500">Brick House</h3>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl">
+                <img src="https://www.w3schools.com/w3images/house3.jpg" alt="Renovated" class="w-full h-48 object-cover rounded hover:opacity-75">
+                <h3 class="text-lg font-bold mt-4 hover:text-blue-500">Renovated House</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-200 py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-2xl font-semibold mb-4 hover:text-gray-600">About Me</h2>
+            <p class="hover:text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, nulla.</p>
+        </div>
+    </section>
+
+    <section class="container mx-auto px-4 py-12">
+        <h2 class="text-2xl font-semibold mb-6 hover:text-gray-600">Contact</h2>
+        <form class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl">
+            <div class="mb-4">
+                <label class="block text-sm font-bold mb-2" for="name">Name</label>
+                <input class="w-full px-3 py-2 border rounded focus:border-blue-500" id="name" type="text" placeholder="Your Name">
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-bold mb-2" for="email">Email</label>
+                <input class="w-full px-3 py-2 border rounded focus:border-blue-500" id="email" type="email" placeholder="Your Email">
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-bold mb-2" for="message">Message</label>
+                <textarea class="w-full px-3 py-2 border rounded focus:border-blue-500" id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Send</button>
+        </form>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-6 text-center">
+        <p>&copy; 2024 Architect. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+
